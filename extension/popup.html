@@ -2,10 +2,22 @@
 <html>
 	<head>
 		<link href="popup.css" rel="stylesheet">
-	</head>
-	<body>
-		<h1 id="title"></h1>
-		<p id="url"></p>
+		<link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">		<header>
+			<h1 id="title">Organize</h1>
+		</header>
+
+		<h2 id="tab-title"></h2>
+
+		<p id="tab-url"></p>
+
+		<div id="actions">
+			<select class="actions-item" name="pets" id="pet-select">
+				<option value="">Choose a collection</option>
+				<option value="default">Default</option>
+			</select>
+
+			<button class="actions-item">Save</button>
+		</div>
 		<script src="popup.js"></script>
 	</body>
 </html>

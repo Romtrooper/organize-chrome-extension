@@ -1,5 +1,38 @@
 body {
-		height: 150px;
-		width: 400px;
-		outline: none;
-	}
+	height: 150px;
+	width: 300px;
+	font-family: 'Overpass', sans-serif;
+}
+
+header {
+	text-align: center;
+}
+
+#title {
+	margin: 0 auto;
+	font-weight: 400;
+}
+
+#tab-url {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#tab-url {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#actions {
+	display: flex;
+	border-top: 1px solid black;
+	padding: 16px 0;
+}
+
+.actions-item {
+	margin: 0 2px;
+	flex: 1;
+	border-radius: 2px;
+}

@@ -14,8 +14,8 @@ function getCurrentTab(callback) {
 }
 
 function printOnScreen(tabName, url) {
-	document.getElementById('title').textContent = tabName;
-	document.getElementById('url').textContent = url;
+	document.getElementById('tab-title').textContent = tabName;
+	document.getElementById('tab-url').textContent = url;
 }
 
 document.addEventListener('DOMContentLoaded', function() {
